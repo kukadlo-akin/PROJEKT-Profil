@@ -16,4 +16,108 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
+	color: #bdc3c7;
+	font-family: "Source Sans 3", sans-serif;
+	font-optical-sizing: auto;
 }
+
+h1 {
+	color: whitesmoke;
+	font-family: "Montserrat", sans-serif;
+	font-size: 25px;
+}
+
+.profil {
+	background-color: #31363b;
+	width: 300px;
+	margin-top: 30px;
+	margin-left: 20px;
+	padding: 0;
+	position: relative;
+	box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.obsah {
+	padding: 0 20px;
+}
+
+.foto {
+	width: 300px;
+	overflow: auto;
+}
+
+.logo {
+	background-color: #b92e81;
+	border-radius: 50%;
+	overflow: auto;
+	position: absolute;
+	right: 30px;
+    top: 170px;
+	box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.odkazy {
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+    text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #bdc3c7;
+}
+
+ul {
+	padding: 0;
+	position: relative;
+}
+
+.portfolio {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #3f464d;
+	border-top: 2px solid #3f464d;
+}
+
+.facebook {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 150px;
+}
+
+.twitter {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 150px;
+	position: absolute;
+	right: 0;
+    bottom: 0;
+	border-left: 2px solid #3f464d;
+}
+
+.portfolio :hover,
+.portfolio :focus,
+.portfolio :active {
+    background-color: #e74c3c;
+	color: white;
+}
+
+.facebook :hover,
+.facebook :focus,
+.facebook :active {
+    background-color: #3b5998;
+	color: white;
+}
+
+.twitter :hover,
+.twitter :focus,
+.twitter :active {
+    background-color: #1da1f2;
+	color: white;
+}
+
