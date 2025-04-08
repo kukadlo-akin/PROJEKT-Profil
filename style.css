@@ -104,20 +104,22 @@ ul {
 .portfolio:focus,
 .portfolio:active {
     background-color: #e74c3c;
-	color: white;
 }
 
 .facebook:hover,
 .facebook:focus,
 .facebook:active {
     background-color: #3b5998;
-	color: white;
 }
 
 .twitter:hover,
 .twitter:focus,
 .twitter:active {
     background-color: #1da1f2;
-	color: white;
 }
 
+li:hover a,
+li:focus a,
+li:active a {
+	color: white;
+}
