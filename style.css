@@ -34,7 +34,7 @@ h1 {
 	margin-left: 20px;
 	padding: 0;
 	position: relative;
-	box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+	box-shadow: 10px 10px 24px -21px rgba(0,0,0,0.68);
 }
 
 .obsah {
@@ -53,7 +53,7 @@ h1 {
 	position: absolute;
 	right: 30px;
     top: 170px;
-	box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+	box-shadow: 10px 10px 24px -21px rgba(0,0,0,0.68);
 }
 
 .odkazy {
@@ -100,23 +100,23 @@ ul {
 	border-left: 2px solid #3f464d;
 }
 
-.portfolio :hover,
-.portfolio :focus,
-.portfolio :active {
+.portfolio:hover,
+.portfolio:focus,
+.portfolio:active {
     background-color: #e74c3c;
 	color: white;
 }
 
-.facebook :hover,
-.facebook :focus,
-.facebook :active {
+.facebook:hover,
+.facebook:focus,
+.facebook:active {
     background-color: #3b5998;
 	color: white;
 }
 
-.twitter :hover,
-.twitter :focus,
-.twitter :active {
+.twitter:hover,
+.twitter:focus,
+.twitter:active {
     background-color: #1da1f2;
 	color: white;
 }
